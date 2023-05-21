@@ -3,7 +3,7 @@
 #include <Windows.h>
 using namespace std;
 
-class Human
+class Human                                     //Base class
 {
 protected:
     string full_name;
@@ -22,7 +22,7 @@ public:
     void print();
 };
 
-class Student : public Human
+class Student : public Human                    //Derivative class
 {
     int admission_year;
     int stud_recbook_num;
